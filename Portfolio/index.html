@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><span>M</span>anan</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#"><i fa fa-home class="fa_home"></i>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="yellow">Manan</span>
+                <div>and I'm a <span id="element"></span></div>
+
+            </div>
+            <div class="rightsection">
+                <img src="images/development.png" alt="dev-photo">
+            </div>
+        </section>
+    </main>
+
+    <!-- ----------  About  --------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/manan2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1><br>
+                    <p class="about_me">Highly motivated and detail-oriented M.Sc. (IT) student and some experience in
+                        web
+                        application development. Seeking an internship or entry-level position to leverage my
+                        technical expertise in ASP.NET, C#, PHP, and SQL, and contribute to innovative projects while
+                        further developing my skills in a dynamic work environment</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Frontend Development</span><br>HTML &nbsp; CSS</li>
+                            <li><span>PHP Development</span><br>PHP</li>
+                            <li><span>ASP.NET</span><br>C#</li>
+                            <li><span>Cloud Computing</span><br>Basic</li>
+                            <li><span>Database</span><br>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Charusat University</span><br>M.Sc.(IT) [2023-2025]<br>CGPA : 8.82</li>
+                            <li><span>Atmiya University</span><br>B.Sc. Physics [2019-2022]<br>CGPA : 8.64</li>
+                            <li><span>Daxinamurti Vidhyalay</span><br>12th [2019]<br>Per: 60.15%</li>
+                            <li><span>M.D. Shah Vidhyalay</span><br>10th [2017]<br>Per: 80.83%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Navodita Infotech</span><br>PHP Developement<br>[1 month Virtually]</li>
+                            <li><span>CodSoft</span><br>Frontend Developement<br>[1 month Virtually]</li>
+                            <li><span>Code Alpha</span><br>Frontend Developement<br>[1 month Virtually]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------  Portfolio  -------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <h3>Blood-Donation Data</h3>
+                    <img src="images/Work1.jpg">
+                    <br>
+                    <div class="Work_details1">
+                        <p>In this web app we can manage the data of Blood Donor using operations like Insert,
+                            Update,
+                            Delete. And also Filter the data
+                            by Blood-group
+                            and City wise.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <h3>Calculator</h3>
+                    <img src="images/work2.jpg">
+                    <br>
+                    <div class="Work_details2">
+                        <p>This is a simple Calculator which can be perform basic mathematical operations. It's made
+                            from HTML, CSS & JS.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <h3>Expense Management</h3>
+                    <img src="images/work3.jpg">
+                    <br>
+                    <div class="Work_details3">
+                        <p>This web app is useful for manage the data of our Daily,Weekly,Monthly,Yearly and Total
+                            Expense in different date & category of expense.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------  Contact  -------- -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="contact_title">Contact Me</h1>
+            <a href="images/Manan_Bhalala_Resume.pdf" download class="download"><input type="submit"
+                    value="Download Resume" class="download_resume"> </input></a>
+
+            <div class="contact-up">
+                <a href="mailto:bhalalamanan@gmail.com"><i class="fa fa-envelope" style="color: #46C2CB">
+                        bhalalamanan@gmail.com</i></a>
+                <a href="tel:+918849156307"><i class="fa fa-phone" style="color: #46C2CB"> (+91) 88491 56307</i></a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/MananBhalala"><i class="fa fa-github" style="color: #46C2CB;"></i>
+                    Github</a>
+                <a href="https://www.linkedin.com/in/manan-bhalala-648778188/"><i class="fa fa-linkedin"
+                        style="color: #46C2CB;"></i>
+                    LinkedIn</a>
+                <a href="https://www.instagram.com/m.a.n.a.n.patel?igsh=MXBvb3Y5c3hxamxxNw=="><i class="fa fa-instagram"
+                        style="color: #46C2CB;"></i> Instagram</a>
+                <a href="https://www.facebook.com/manan.bhalala.9"><i class="fa fa-facebook"
+                        style="color: #46C2CB;"></i>
+                    Facebook</a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- --------  Footer  -------- -->
+    <div class="copyright">
+        <p>Copyright © <span class="cp_yellow">Manan Bhalala</span>. &nbsp All Rights Reserved.</p>
+    </div>
+
+    <!-- -------  Animation ------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Frontend Developer', 'PHP Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+
+    <!-- ---------  Skills -------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
